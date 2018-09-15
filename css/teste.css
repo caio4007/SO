@@ -1,0 +1,89 @@
+body{
+	background-image: url(https://www.pxwall.com/wp-content/uploads/2018/03/Firewatch-Wallpapers-in-Ultra-HD-4K.jpg);
+	background-size: 100%;
+}
+.conteudo{
+	height: 90%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.barra{
+	height: 10%;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	display: inline-flex;
+}
+.barra .iniciar{
+	width: 8%;
+	height: 100%;
+	display: flex;
+}
+.barra .iniciar .material-icons{
+	margin: auto;
+	color: #fff;
+	font-size: 60px;
+	padding-left: 10px;
+}
+.barra .opcoes{
+	width: 22%;
+	height: 100%;
+	display: flex;
+	padding-left: 15px;
+}
+.barra .opcoes .link{
+	margin: auto;
+	display: flex;
+	width: 50px;
+	height: 50px;
+}
+.barra .opcoes .pa{
+	background-color: #b71c1c;
+}
+.barra .opcoes .se{
+	background-color: #1b5e20;
+}
+.barra .opcoes .md{
+	background-color: #f57f17;
+}
+.barra .opcoes .dr{
+	background-color: #263238;
+}
+.barra .opcoes .link .nome{
+	font-size: 25px;
+	color: #fff;
+	margin: auto;
+	border-radius: 25px;
+	opacity: 1;
+}
+.barra .relogio{
+	position: absolute;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+	display: flex;
+}
+.barra .relogio .borda{
+	margin: auto;
+	height: 80%;
+	width: 95%;
+	border-radius: 10px; 
+	background-color: rgba(4, 0, 0, 0.4);
+	color: #fff;
+	display: inline-flex;
+}
+.barra .relogio .borda .hora{
+	width: 75%;
+	height: 100%; padding-left: 15px;
+	line-height: 50px;
+	font-size: 20px;
+}
+.barra .relogio .borda .fale-conosco{
+	width: 25%;
+	float: right;
+	display: flex;
+}
+.barra .relogio .borda .fale-conosco .material-icons{
+	margin: auto;
+}
